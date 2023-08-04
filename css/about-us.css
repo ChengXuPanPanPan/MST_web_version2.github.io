@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    box-sizing: border-box;
+    height: 300vh;
+    position: relative;
+}
+
+.container {
+    padding: 0 200px;
+}
+
+.container .text {
+    padding-top: 18vh;
+}
+
+.container .text h1 {
+    line-height: 1.5;
+}
+
+.container .text h1:first-child {
+    padding-bottom: 10px;
+    border-bottom: 1px rgb(25, 72, 106) solid;
+}
+
+.container .text h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container .text p {
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.container .text .title {
+    margin-top: 30px;
+}
+
+.container .text .title .item {
+    margin-top: 20px;
+}

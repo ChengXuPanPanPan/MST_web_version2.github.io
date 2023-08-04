@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 0 150px;
+}

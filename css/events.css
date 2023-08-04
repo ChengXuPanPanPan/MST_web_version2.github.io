@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* ----------main event---------- */
+
+.main_Events {
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.swiper {
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+
+/* ----------container---------- */
+
+.container {
+    padding: 50px 200px;
+    background-color: rgb(25, 72, 106);
+}
+
+.container .events {
+    border-bottom: 1px #D4A821 solid;
+}
+
+.container .events .item {
+    display: block;
+    width: 40%;
+    border: 1px rgb(55, 104, 140) solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: 0.4s
+}
+
+.container .events .item:hover {
+    transform: translateY(-2%);
+}
+
+
+/* .container .events .item .pic {} */
+
+
+/* .container .events .item .pic .text {} */
+
+.container .events .item h1 {
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.container .events .item .pic .text small {
+    color: azure;
+}
+
+.container .events .item p {
+    color: azure;
+    line-height: 1.5;
+}
+
+.container .newsInfo {
+    background-color: rgb(25, 72, 106);
+}
